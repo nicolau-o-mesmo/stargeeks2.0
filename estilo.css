@@ -135,7 +135,6 @@ fieldset{
     "A B B";
 }
 .pgprodutologo{
-    display: flex;
     width: 155;
     height: 175;
 }
@@ -190,6 +189,7 @@ border-radius: 35px;
     border-radius: 35px;
 }
 .pgpdescricao{
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     grid-area: "B";
@@ -215,4 +215,7 @@ border-radius: 35px;
 .sidecl{
     grid-area: "A";
     flex-direction: column;
+    margin-top: 150px;
+    gap: 3vw;
+    justify-items: center;
 }

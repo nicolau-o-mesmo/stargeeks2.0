@@ -13,15 +13,15 @@ background: linear-gradient(119.36deg, #8F00FF 0%, #FFFFFF 100%);
 }
 .container2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 
     0,5fr 
     2fr 
     1fr;
     grid-template-areas: 
-    "h h h h h h h h"
-    "l l l l l l l l"
-    "c j j j j j j j";
+    "h h "
+    "l l "
+    "c j ";
 }
 div>img{
     width: 110px;
@@ -135,8 +135,9 @@ fieldset{
     "A B B";
 }
 .pgprodutologo{
-    width: 155;
-    height: 175;
+    margin-top: 5%;
+    width: 15%;
+    height: 15%;
 }
 .pg{
     font-family: 'Roboto', sans-serif;
@@ -174,11 +175,11 @@ border-radius: 35px;
 }
 .add_fill2{
     position: flex;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
 }
 .ccdesc{
@@ -189,24 +190,24 @@ border-radius: 35px;
     border-radius: 35px;
 }
 .pgpdescricao{
-    margin-top: 150px;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
     grid-area: "B";
 }
 .bot-save{
-    margin-top: 20px;
+    margin-top: 2%;
     background-color: #FFFFFF;
     border-radius: 26px;
     border: none;
     font-weight: bold;
-    width: 10vw;
-    height: 4vw;
-    border: 3px solid;
+    width: 30%;
+    height: 20%;
+    border: 3% solid;
     border-color: #5e2ba0;
 }
 .botaosalvar{
-    margin-top: 5px;
+    margin-top: 10%;
 }
 .bot-save:hover{
     background-color: #903efa;
@@ -215,7 +216,7 @@ border-radius: 35px;
 .sidecl{
     grid-area: "A";
     flex-direction: column;
-    margin-top: 150px;
-    gap: 3vw;
+    margin-top: 40%;
+    gap: 3%;
     justify-items: center;
 }

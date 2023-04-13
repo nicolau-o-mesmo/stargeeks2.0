@@ -1,0 +1,222 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+body{
+height: 100vw;
+background: linear-gradient(119.36deg, #8F00FF 0%, #FFFFFF 100%);
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 
+    0,5fr 
+    2fr 
+    1fr;
+    grid-template-areas: 
+    "h h "
+    "l l "
+    "c j ";
+}
+div>img{
+    width: 110px;
+    height: 150px;
+}
+.logocentro{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+}
+.bara_superior{
+    display: flex;
+    grid-area: h;
+    height: 110px;
+    background: linear-gradient(261.79deg, #FFFFFF 6.36%, #7000FF 47.78%, #FFFFFF 93.75%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 9px rgba(0, 0, 0, 0.25);
+    justify-content: right;
+    gap: 40px;
+    
+}
+.bara_de_pesquisa{
+    background: #FFFFFF;
+    border-radius: 26px;
+    width: 594px;
+    height: 52px;
+    margin-top: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.acc>img{
+    position: flex;
+width: 99vw;
+height: 493px;
+margin: 0;
+}
+.retangulo7{
+    display: flex;
+    grid-area: c;
+    width: 440px;
+    height: 517px;
+    background: #FAFF00;
+    border-radius: 68px;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.add_fill{
+    position: flex;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bavatarpc{
+    display: flex;
+    background-image: url(avataricon.png);
+    width: 90px;
+    height: 90px;
+    border: none;
+    justify-content: center;
+}
+/* logsing-in */
+.inputtexto{
+    background: #FFFFFF;
+    border-radius: 26px;
+    width: 30vw;
+    height: 2.5vw;
+    margin-top: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logsin-in{
+    display: flex;
+    justify-content: center;
+}
+.bot-sub{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 26px;
+    border: none;
+    font-weight: bold;
+    width: 10vw;
+    height: 4vw;
+}
+.botaoentrar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.sislogsingin{
+     font-weight: bold;
+     margin-top: 5vw;
+}
+.bot-sub:hover{
+    background-color: #903efa;
+}
+fieldset{
+    border-color: #7000FF;
+    border-radius: 3vw;
+}
+/* uploader pdt */
+.pgproduto{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "T T T"
+    "A B B";
+}
+.pgprodutologo{
+    margin-top: 5%;
+    width: 15%;
+    height: 15%;
+}
+.pg{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.pgprodutotexto{
+    display: flex;
+    flex-direction: row;
+    grid-area: "T";
+}
+.pgptitulo{
+    position: absolute;
+width: 95vw;
+height: 10vw;
+left: 22px;
+top: 20px;
+
+background: #FAFF00;
+box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+}
+.iuploadimg{
+    display: flex;
+    width: 30vw;
+    height: 25vw;
+    background: #FAFF00;
+    border-radius: 68px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+.add_fill2{
+    position: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.ccdesc{
+    width: 60vw;
+    height: 60vw;
+    background: #FAFF00;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+.pgpdescricao{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    grid-area: "B";
+}
+.bot-save{
+    margin-top: 2%;
+    background-color: #FFFFFF;
+    border-radius: 26px;
+    border: none;
+    font-weight: bold;
+    width: 30%;
+    height: 20%;
+    border: 3% solid;
+    border-color: #5e2ba0;
+}
+.botaosalvar{
+    margin-top: 10%;
+}
+.bot-save:hover{
+    background-color: #903efa;
+    color: white;
+}
+.sidecl{
+    grid-area: "A";
+    flex-direction: column;
+    margin-top: 40%;
+    gap: 3%;
+    justify-items: center;
+}

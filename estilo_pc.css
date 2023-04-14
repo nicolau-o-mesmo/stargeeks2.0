@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    font-size: large;
+    font-size: 2vw;
 }
 
 body{
@@ -153,7 +153,7 @@ fieldset{
     position: absolute;
 width: 95vw;
 height: 10vw;
-left: 22px;
+left: 2vw;
 top: 20px;
 
 background: #FAFF00;
@@ -196,7 +196,7 @@ border-radius: 35px;
     grid-area: "B";
 }
 .bot-save{
-    margin-top: 2%;
+    margin-top: 2vw;
     background-color: #FFFFFF;
     border-radius: 26px;
     border: none;

@@ -91,11 +91,15 @@ margin: 0;
 .logsin-in{
     display: flex;
     justify-content: center;
+    height: 90vw;
 }
 .botaoentrar{
-    display: flex;
+    display: flex  ;
     justify-content: center;
-    margin-top: 5px;
+    color: aliceblue;
+    background-color: #903efa   ;
+    height: 20vw;
+
 }
 .sislogsingin{
      font-weight: bold;
@@ -136,6 +140,11 @@ fieldset{
     display: grid;
     flex-direction: column;
     grid-area: "T";
+}
+.avatarpc{
+    margin-right: 36vw;
+    margin-top: 5vw;
+    
 }
 .pgptitulo{
     position: absolute;
@@ -206,4 +215,12 @@ border-radius: 35px;
 .idesc{
     justify-self: center;
     display: flex;
+}
+
+.botaobrabo{
+    background-color: #8F00FF;
+}
+
+input[type=submit]{
+    height: auto;
 }
